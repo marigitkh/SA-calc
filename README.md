@@ -7,17 +7,17 @@ The method was validated by comparing the calculated mySAscores with the ease of
 
 ## Table of Contents
 
-**Data**
-- **40_molecules.csv**: Molecules used for validating the SA score calculation method, downloaded from the paper.
-- **list_bits.pkl**: Precomputed fragment features for the 10 most common fragments in the PubChem dataset.
-- **total_fragment_counts.pkl**: Precomputed counts of fragments in the PubChem dataset.
+**Analysis**
+- **sas_computation_and_analysis.ipynb**: Jupyter notebook containing the calculation of molecular fragments and SA scores, along with statistical analysis and validation using the paper's dataset.
 
 **Utils**
 - **contribution_scores.py**: Calculates fragment counts and contribution scores for molecular fragments.
 - **sa_score_calculator.py**: Computes the Synthetic Accessibility score based on fragment contributions and structural complexity.
 
-**Analysis**
-- **sas_computation_and_analysis.ipynb**: Jupyter notebook containing the calculation of molecular fragments and SA scores, along with statistical analysis and validation using the paper's dataset.
+**Data**
+- **40_molecules.csv**: Molecules used for validating the SA score calculation method, downloaded from the paper.
+- **list_bits.pkl**: Precomputed fragment features for the 10 most common fragments in the PubChem dataset.
+- **total_fragment_counts.pkl**: Precomputed counts of fragments in the PubChem dataset.
 
 ## How to Use the Project
 
