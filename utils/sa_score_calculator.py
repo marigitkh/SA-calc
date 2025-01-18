@@ -22,7 +22,8 @@ def calculate_fragment_score(molecule: Chem.Mol, contribution_scores):
 
     # Calculate the total fragment contribution score
     total_fragment_score = sum(
-        contribution_scores.get(fragment, 0) * count
+        # since the smalles fragment contribution score is -6.87, for the fragment which is not found in db a score of -7 is assigned
+        contribution_scores.get(fragment, -7) * count
         for fragment, count in fragment_counts.items()
     )
 
@@ -86,7 +87,10 @@ def calculate_sa(molecule: Chem.Mol, contribution_scores):
     fragment_score = calculate_fragment_score(molecule, contribution_scores)
     complexity_score = calculate_complexity_score(molecule)
     raw_score = fragment_score - complexity_score
-    scaled_score = -1 * raw_score
-    sa_score = 1 + (9 / (1 + math.exp(-scaled_score)))
+    inverted_score = -raw_score
+    min_score = -6.87
+    max_score = 8.65
+    normalized_score = (inverted_score - min_score) / (max_score - min_score)
+    sa_score = 1 + 9 * normalized_score
 
     return sa_score
