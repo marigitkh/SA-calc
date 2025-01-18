@@ -21,8 +21,6 @@ My project investigates the method described in the paper *"The Estimation of Sy
 
 ## How to Use the Project
 
-## How to Use the Project
-
 To calculate the Synthetic Accessibility (SA) score for new molecules, follow these steps:
 
 1. **Prepare your input data**: Ensure that your molecule data is in a compatible format (e.g., SMILES notation) and stored in a CSV or similar file.
