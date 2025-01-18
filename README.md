@@ -1,9 +1,9 @@
 # Calculation of Molecule's Synthetic Accessibility
 
 ## Project Description
-This Python implementation calculates the synthetic accessibility (SA) of molecules, as described in the paper *"The Estimation of Synthetic Accessibility Score of Drug-like Molecules"* published in the *Journal of Cheminformatics*. The method combines the frequency of molecular substructures in a large database with various complexity factors to generate a score ranging from 1 (easy) to 10 (difficult). This score represents the ease of synthesizing a given molecule. Custom functions were written in Python to calculate the necessary metrics and the SA score itself.
+It is a well-known fact that people have been creating chemical molecules for many years. To develop new methods for molecule synthesis, scientists learned to transfer information about molecules into computers and perform analyses. But how can one be sure if a given molecule can be easily synthesized in real life? Is it necessary to test it experimentally to understand its feasibility? This might waste valuable resources, which is why scientists developed a method for calculating a special score that indicates how difficult it is to synthesize a molecule, based on its structure and the frequency of fragments that make up the molecule in known databases.
 
-The method was validated by comparing the calculated mySAscores with the ease of synthesis ratings provided by experienced medicinal chemists for a set of 40 molecules, as well as the SA scores reported in the paper. The results showed a Pearson correlation of approximately 0.9, indicating strong consistency between the calculated scores and expert evaluations.
+My project investigates the method described in the paper "The Estimation of Synthetic Accessibility Score of Drug-like Molecules" published in the Journal of Cheminformatics and provides a Python implementation of it. My code is tested on a sample of 40 molecules, for which expert chemists' scores and research on the SA score are available for comparison.
 
 ## Table of Contents
 
