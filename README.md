@@ -3,8 +3,7 @@
 ## Project Description
 Scientists learned how to synthesize certain molecules many-many decades ago. But how can one be sure if a new given molecule can be easily synthesized in real life? Is it necessary to test it experimentally to understand its feasibility? This might waste valuable resources, which is why scientists developed a method for calculating a special score that indicates how difficult it is to synthesize a molecule, based on its structure and the frequency of fragments that make up the molecule in known databases.
 
-My project investigates the method described in the paper *"The Estimation of Synthetic Accessibility Score of Drug-like Molecules"* published in the **Journal of Cheminformatics** and provides a Python implementation of it. My code is tested on a sample of 40 molecules, for which expert chemists' scores and research on the SA score are available for comparison. 
-![oops](https://imgur.com/gallery/best-part-of-waking-up-JMD31#/t/molecule)
+My project investigates the method described in the paper *"The Estimation of Synthetic Accessibility Score of Drug-like Molecules"* published in the **Journal of Cheminformatics** and provides a Python implementation of it. My code is tested on a sample of 40 molecules, for which expert chemists' scores and research on the SA score are available for comparison.
 
 ## Table of Contents
 
