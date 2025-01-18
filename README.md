@@ -1,4 +1,4 @@
-# Calculation of Molecule's Synthetic Accessibility
+# Calculation of Molecule's Synthetic Accessibility (SA)
 <p align="center">
   <img src="https://github.com/utenok-malenkiy/koko/blob/main/cute-molecule.jpeg?raw=true" width="250"/>
 </p>
