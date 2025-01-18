@@ -1,5 +1,8 @@
 # Calculation of Molecule's Synthetic Accessibility
-<img src="https://github.com/utenok-malenkiy/koko/blob/main/cute-molecule.jpeg?raw=true" width="200"/>
+<div style="text-align: center;">
+  <img src="https://github.com/utenok-malenkiy/koko/blob/main/cute-molecule.jpeg?raw=true" width="300"/>
+</div>
+
 
 ## Project Description
 Scientists learned how to synthesize certain molecules many-many decades ago. But how can one be sure if a new given molecule can be easily synthesized in real life? Is it necessary to test it experimentally to understand its feasibility? This might waste valuable resources, which is why scientists developed a method for calculating a special score that indicates how difficult it is to synthesize a molecule, based on its structure and the frequency of fragments that make up the molecule in known databases.
