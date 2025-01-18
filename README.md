@@ -12,7 +12,7 @@ My project investigates the method described in the paper *"The Estimation of Sy
   
 **Utils**
 - **contribution_scores.py**: Calculates fragment counts and contribution scores for molecular fragments.
-- **sa_score_calculator.py**: Computes the Synthetic Accessibility score based on fragment contributions and structural complexity.
+- **SA_score_calculator.py**: Computes the Synthetic Accessibility score based on fragment contributions and structural complexity.
 
 **Data**
 - **40_molecules.csv**: Molecules used for validating the SA score calculation method, downloaded from the paper.
