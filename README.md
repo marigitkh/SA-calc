@@ -1,6 +1,6 @@
 # Calculation of Molecule's Synthetic Accessibility
 <p align="center">
-  <img src="https://github.com/utenok-malenkiy/koko/blob/main/cute-molecule.jpeg?raw=true" width="300"/>
+  <img src="https://github.com/utenok-malenkiy/koko/blob/main/cute-molecule.jpeg?raw=true" width="250"/>
 </p>
 
 ## Project Description
